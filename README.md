@@ -1,24 +1,29 @@
-# README
+# BSALE
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 👩‍💻 About the project
 
-Things you may want to cover:
+This project was created with Ruby 2.6.6 and Ruby on Rails 6.1.3.1. Also, the local database is connected to MySQL and the deployment was done with Heroku.
 
-* Ruby version
+## 🦶 Installation
 
-* System dependencies
+When you clone the repository, you must run the following commands:
 
-* Configuration
+1) bundle install
 
-* Database creation
+2) rails db:create
 
-* Database initialization
+3) rails db:migrate
 
-* How to run the test suite
+4) rails db:seed
 
-* Services (job queues, cache servers, search engines, etc.)
+If you want to run the project in the development environment, you have to code in the terminal:
 
-* Deployment instructions
+• rails s
 
-* ...
+## 🎯 Adittional
+
+Endpoints were added at the root of the project: <b><i>bsale-api.json</i></b>
+
+## 📃 Final message
+
+Thanks for your time and for the opportunity!
