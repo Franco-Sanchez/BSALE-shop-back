@@ -53,3 +53,4 @@ production:
   database: bsale_shop_production
   username: bsale_shop
   password: <%= ENV['BSALE_SHOP_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
