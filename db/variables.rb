@@ -39,13 +39,13 @@
   },
   { 
     name: 'ENERGETICA MONSTER RIPPER',
-    url_image: '',
+    url_image: 'https://disvalenzuela.cl/581-large_default/6x-bebida-energetica-monster-juice-ripper-473cc.jpg',
     price: 1990.0,
     discount: 0
   },
   { 
     name: 'ENERGETICA MONSTER VERDE',
-    url_image: '',
+    url_image: 'https://www.myamericanmarket.com/14875/monster-energy-ultra-paradise-bebida-energizante.jpg',
     price: 1990.0,
     discount: 0
   }
@@ -288,19 +288,19 @@
   },
   { 
     name: 'COCA COLA NORMAL DESECHABLE 1500cc',
-    url_image: '',
+    url_image: 'https://cdn.shopify.com/s/files/1/0279/4645/1011/products/Coca-cola-normal-1500cc_708x.png?v=1599483795',
     price: 1500.0,
     discount: 0
   },
   { 
     name: 'COCA COLA LIGHT DESECHABLE',
-    url_image: '',
+    url_image: 'https://images.jumpseller.com/store/serviceshop/4638070/Coca_Cola_Light_1_5.jpg?1617914987',
     price: 1500.0,
     discount: 0
   },
   { 
     name: 'Bebida Sprite 1 Lt',
-    url_image: '',
+    url_image: 'https://www.lahuertaverde.mx/wp-content/uploads/2020/06/sprite-1-l.jpg',
     price: 1250.0,
     discount: 10
   }
@@ -342,13 +342,13 @@
 @cervezas = [
   { 
     name: 'Cerveza Escudo Normal LATA 350CC',
-    url_image: '',
+    url_image: 'https://birrapedia.prevista.net/modulos/market/40/be/cerveza-escudo-lata-350cc-x24-15553258389295-g.jpg',
     price: 600.0,
     discount: 0
   },
   { 
     name: 'Cerveza Escudo Sin Filtrar LATA 350CC',
-    url_image: '',
+    url_image: 'https://i1.wp.com/www.rompiendoelcorcho.cl/wp-content/uploads/2018/11/lata-escudo.png?fit=1350%2C1350&ssl=1',
     price: 800.0,
     discount: 0
   }
