@@ -3,7 +3,7 @@ class ProductsController < ApplicationController
   def index
     name = params[:name]
     if name
-      render json: Product.search_products(name)
+      render json: Product.render_products(name)
     else
       render json: Product.render_products
     end

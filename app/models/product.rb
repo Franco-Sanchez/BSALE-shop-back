@@ -1,15 +1,13 @@
 class Product < ApplicationRecord
   belongs_to :category
 
-  def self.render_products
+  def self.render_products(query = nil)
     products = all
-    products.map { |product| object_product(product) }
-  end
-
-  def self.search_products(query)
-    products = all
-    products.filter do |product|
-      object_product(product) if product.name.downcase.include?(query.downcase)
+    if query
+      filter_products = products.filter { |product| product.name.downcase.include?(query.downcase) }
+      filter_products.map { |product| object_product(product) }
+    else
+      products.map { |product| object_product(product) }
     end
   end
 
